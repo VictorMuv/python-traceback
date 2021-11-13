@@ -2,7 +2,7 @@
 
 There are several sections to every Python traceback, that are important. The diagram below was an attempt to help you see those different parts.
 
-{% img 'python-traceback-diagram' centered=True %}
+![{% img 'python-traceback-diagram' centered=True %}]()
 
 In python its best to read the traceback starting from the bottom moving upwards. 
 The last line of the traceback is called the error message line, and it contains the raised exception name(outlined in green). 
