@@ -22,7 +22,7 @@ There are a few differences between tracebacks output when executing your code i
 ```python
 >>> def greet( someone ):
 >>>
-...   print('Hello, ' +someon)
+...   print('Hello, ' +someone)
 ... 
 >>> greet("Chad")
 
