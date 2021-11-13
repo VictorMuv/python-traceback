@@ -29,5 +29,5 @@ There are a few differences between tracebacks output when executing your code i
 Traceback (most recent call last):
   File "", line 2, in 
   File "", line 1, in greet
-NameError: name 'someon' is not defined
+NameError: name 'someone' is not defined
 ```
