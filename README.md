@@ -15,7 +15,7 @@ The second line for these call contains the actual code that was executed (under
 
 There are a few differences between tracebacks output when executing your code in the command-line and running code in the REPL, below are same codes from previous sections executed in an `REPL` and the resulting traceback output.
 
-```pycon
+```python
 >>> def greet( someone ):
 >>>
 ...   print('Hello, ' +someon)
@@ -23,7 +23,7 @@ There are a few differences between tracebacks output when executing your code i
 >>> greet("Chad")
 
 Traceback (most recent call last):
-  File "", line 1, in 
-  File "", line 2, in greet
+  File "", line 2, in 
+  File "", line 1, in greet
 NameError: name 'someon' is not defined
 ```
